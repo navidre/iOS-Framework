@@ -504,6 +504,10 @@ To load resources from the bundle we will use the following code:
 You can see an example of loading a resource from within the framework in the Widget object in the
 included Serenity framework.
 
+### Step 5: Removing extra tiff files
+
+Go to build settings of bundle and search for COMBINE_HIDPI_IMAGES and change it to NO in order to prevent automatic change of file extensions to tiff instead of png.
+
 <a name="third_parties" />
 Adding the Framework to a Third-Party Application
 =================================================
